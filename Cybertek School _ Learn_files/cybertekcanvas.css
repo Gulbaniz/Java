@@ -1,0 +1,44 @@
+label[for="pseudonym_session_unique_id"]:before{content:'User ID or '}
+.ic-Login-header{
+	background: white !important;
+    padding: 23px 40px !important;
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    z-index: 999 !important;
+    background-image: url(https://cybertekschool.com/wp-content/uploads/2017/06/header-2.jpg) !important;
+    border-bottom: 5px solid #4c4c4d !important;
+}
+body.ic-Login-Body #footer.ic-Login-footer{
+	background-color: #4c4c4d !important;
+    padding: 4px 40px !important;
+    position: fixed !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    z-index: 999 !important;
+}
+.ic-Login__container{
+	    margin-top: 80px !important;
+}
+.ic-Login__content{
+	    border: 5px solid #1e5495 !important;
+	    margin-top: 100px !important;
+}
+.ic-Login__actions .Button--login{
+	background: #1e5495 !important;
+    color: white !important;
+    border: 1px solid #1e5495 !important;
+}
+.ic-Login__actions .Button--login:hover{
+	background: #4c4c4d !important;
+    color: white !important;
+    border: 1px solid #4c4c4d !important;
+}
+.ic-Login-footer .ic-Login-footer__links, .ic-Login-footer .ic-Login-footer__logo-link{
+	visibility: hidden !important;
+}
+.ic-Login-header__logo img{
+	max-width: 160% !important;
+}
